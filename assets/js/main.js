@@ -24,6 +24,9 @@ jQuery(window).on('load', function() {
     
 });
 
+var date = new Date().getFullYear();
+
+document.getElementById("year").innerHTML = date;
 
 jQuery(document).ready(function($) {
 	"use strict";
